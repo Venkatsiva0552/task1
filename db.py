@@ -15,7 +15,7 @@ class Employees(db.Model):
     age = db.Column(db.String(200))
     pin = db.Column(db.String(10))
 
-    def __init__(self, name, salary, age, pin):
+    def __init__(self, name,salary , age, pin):
         self.name = name
         self.salary = salary
         self.age = age
