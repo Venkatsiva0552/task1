@@ -8,4 +8,4 @@ def get_Host_name_IP():
 	except:
 		print("Unable to get Hostname and IP")
 
-get_Host_name_IP ()
+get_Host_name_IP()
